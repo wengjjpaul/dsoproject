@@ -9,7 +9,6 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.mockito.Mockito.*;
 import iss.pos.*;
 import iss.pos.promotion.*;
 
