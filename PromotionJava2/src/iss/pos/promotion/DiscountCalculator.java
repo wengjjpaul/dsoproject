@@ -52,7 +52,7 @@ public class DiscountCalculator {
 							item, rp);
 				}
 			}
-		} else if (promo.sameStyle == true && promo.sameSku == false) {
+		} else if (promo.sameStyle == true) {
 			items = order.getStyleOrderItems();
 			for (OrderItem item : items) {
 				if (!rp.pickBiggerDiscountIfApplied) {
