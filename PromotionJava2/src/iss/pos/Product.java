@@ -6,11 +6,11 @@ public class Product {
 	private String style;
 	private double price;
 	
-	public Product(String sku, String name, double price){
-		this.name = name;
-		this.sku = sku;
-		this.price = price;
-	}
+//	public Product(String sku, String name, double price){
+//		this.name = name;
+//		this.sku = sku;
+//		this.price = price;
+//	}
 	
 	public Product(String sku, String name, double price, String style){
 		this.name = name;

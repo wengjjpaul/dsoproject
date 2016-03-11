@@ -44,7 +44,18 @@ public class Order {
 		}
 
 	}
+	
+	public void printOrder() {
+		Iterator<OrderItem> itr = items.iterator();
 
+		while (itr.hasNext()) {
+			OrderItem oi = itr.next();
+
+			System.out.println(oi.getProduct().getName() + " " + oi.getProduct().getPrice() + " " + oi.getQuantity());
+		}
+
+	}
+	
 	public OrderItem getOrderItem(String sku) {
 		Iterator<OrderItem> itr = items.iterator();
 
