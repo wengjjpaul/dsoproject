@@ -36,7 +36,7 @@
                     <junit fork="yes" printsummary="withOutAndErr">
                         <formatter type="xml"/>
                         <test name="test.iss.pos.test.DiscountTest" todir="${junit.output.dir}"/>
-                        <classpath refid="StackAnnotationProject.classpath"/>
+                        <classpath refid="PromotionJava2.classpath"/>
                     </junit>
                 </target>
     <target depends="clean" name="cleanall"/>
